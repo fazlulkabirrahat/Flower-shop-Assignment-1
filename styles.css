@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: auto;
+}
+/* first section design part */
+.sec-1{
+background-color: #c22b4c1a;
+padding-top: 20px;
+}
+.sec-1 .beautiful-flower{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.sec-1 .beautiful-flower h1{
+    color: #272727;
+    font-weight: 800;
+    font-size: 85px;
+    line-height: normal;
+    margin-bottom: 32px;
+
+}
+.sec-1 .beautiful-flower p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.sec-1 .beautiful-flower .btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0px ;
+}
+
+.sec-1 .red-flower{
+    display: inline-block;
+    width: 50%;
+    
+}
+.sec-1 .red-flower img{
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+/* first section design part */
+/* second section design part */
+.sec-2{ 
+    text-align: center;
+    margin: auto;
+ }
+.sec-2 .our-featured-flower{  }
+.sec-2 .our-featured-flower h1{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 98px;
+  }
+.sec-2 .our-featured-flower p{ 
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 700px;
+    margin: auto;
+ }
+.sec-2 .img-1{}
+.sec-2 .img-1 img{}
+.sec-2 .img-2{}
+.sec-2 .img-1 img{}
+.sec-2 .img-3{}
+.sec-2 .img-3 img{}
+/* second section design part */
