@@ -57,7 +57,9 @@ padding-top: 20px;
     text-align: center;
     margin: auto;
  }
-.sec-2 .our-featured-flower{  }
+.sec-2 .our-featured-flower{ 
+    padding-bottom: 50px;
+ }
 .sec-2 .our-featured-flower h1{
     color: #272727;
     text-align: center;
@@ -77,10 +79,107 @@ padding-top: 20px;
     width: 700px;
     margin: auto;
  }
-.sec-2 .img-1{}
-.sec-2 .img-1 img{}
-.sec-2 .img-2{}
-.sec-2 .img-1 img{}
-.sec-2 .img-3{}
-.sec-2 .img-3 img{}
+ .sec-2 .feature-flo{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 128px;
+ }
+ .sec-2 .feature-flo img{
+   border-radius: 300px 300px 0px 0px;
+ }
+.sec-2 .img-1{
+    width: 464px;
+    height: 538px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+
+}
+.sec-2 .img-1 img{
+ padding-top: 110px;
+    
+}
+.sec-2 .img-2{
+    width: 464px;
+    height: 538px;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.sec-2 .img-2 img{
+    padding-top: 110px;
+}
+.sec-2 .img-3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.sec-2 .img-3 img{
+    padding-top: 67px;
+}
+.sec-2 .flo-text{}
+.sec-2 .flo-text p{color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;}
 /* second section design part */
+/* Third section design part */
+.sec-3 .delivery-box{
+
+    background: #2727270D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 100px;
+    padding-top: 85px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+}
+.sec-3 .d-box{
+text-align: center;
+
+}
+.sec-3 .delivery-box .d-box-1{
+padding-left: 174px;
+}
+.sec-3 .delivery-box .d-box-3{
+    padding-right: 174px;
+    }
+.sec-3 .delivery-box .d-dox img{   
+    height: 88px;
+    width: 88px;
+}
+.sec-3 .delivery-box .d-box-text{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+/* Third section design part */
+/* Forth section design part */
+.sec-4{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 620px;
+}
+.sec-4 .hot-deal{}
+.sec-4 .hot-deal .hot-deal-text{}
+.sec-4 .hot-deal .hot-deal-text h1{}
+.sec-4 .hot-deal .hot-deal-text h1 span{}
+.sec-4 .hot-deal .hot-deal-text p{}
+.sec-4 .hot-deal .hot-deal-text .btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0px ;
+}
+/* Forth section design part */
