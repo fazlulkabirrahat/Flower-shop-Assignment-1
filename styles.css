@@ -23,7 +23,6 @@ padding-top: 20px;
     font-size: 84px;
     line-height: normal;
     margin-bottom: 32px;
-
 }
 .sec-1 .beautiful-flower p{
     color: rgba(39, 39, 39, 0.60);
@@ -95,11 +94,9 @@ padding-top: 20px;
     height: 538px;
     background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-
 }
 .sec-2 .img-1 img{
- padding-top: 110px;
-    
+ padding-top: 110px;  
 }
 .sec-2 .img-2{
     width: 464px;
@@ -119,7 +116,6 @@ padding-top: 20px;
 .sec-2 .img-3 img{
     padding-top: 67px;
 }
-.sec-2 .flo-text{}
 .sec-2 .flo-text p{color: #272727;
     text-align: center;
     font-family: Lato;
@@ -179,7 +175,6 @@ padding-left: 174px;
     padding-bottom: 70px;
     justify-content: space-around;
 }
-.sec-4 .hot-deal .hot-deal-text{}
 .sec-4 .hot-deal .hot-deal-text h1{
     padding-top: 65px;
     color: #272727;
@@ -212,9 +207,7 @@ padding-left: 174px;
 
 /* Forth section design part */
 /* Fifth section design part */
-.sec-5 .instagram{
 
-}
 .sec-5 .instagram h1{
     color: #272727;
     text-align: center;
@@ -240,10 +233,83 @@ padding-left: 174px;
     gap:24px;
     padding-bottom: 128px;
 }
-.sec-5 .instagram-img .ins-img{}
-.sec-5 .instagram-img .ins-img img{}
 /* Fifth section design part */
 /* Sixth section design part */
+.sec-6{
+    padding-bottom: 60px;
+}
+.sec-6 .valentine{
+    display: flex;
+    background-color: #c22b4c1a;
+    border-radius: 8px;
+    gap: 40px;
+}
+.sec-6 .valentine .valen-vid{
+position: relative;
+text-align:center;
+}
+
+.sec-6 .valentine .valen-vid .bg-img{
+    height: 421px;
+    width: 650px;
+    margin-bottom: -5px;
+    border-radius: 8px;
+}
+.sec-6 .valentine .valen-vid .bg-button{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.sec-6 .valentine .valen-vid .bg-button img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 33%;
+    top: 25%;
+}
+.sec-6 .valentine .valen-text{
+    padding-left: 50px;
+    width: 600px;
+}
+.sec-6 .valentine .valen-text h1{
+    color: #272727;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+}
+.sec-6 .valentine .valen-text h1 span{
+    color: #E55473;
+}
+.sec-6 .valentine .valen-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 560px;
+}
+.sec-6 .valentine .valen-text ul{
+    list-style:url("./Flower Asset/arrow-right.png");
+    line-height: 30px;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+.sec-6 .valentine .valen-text ul li{
+    margin-top: -5px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Sixth section design part */
+/* Seventh section design part */
 .sec-7{
    padding-bottom: 128px; 
 }
@@ -253,9 +319,7 @@ padding-left: 174px;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
-.sec-7 .deals .sub-text{}
 .sec-7 .deals .sub-text h1{
     padding-top: 122px;
     color: #272727;
@@ -277,20 +341,19 @@ padding-left: 174px;
     line-height: 30px;
     margin-bottom: 48px;
 }
-.sec-7 .deals .email-sub{}
 .sec-7 .deals .email-sub input[type=email]{
-width: 700px;
-height: 64px;
-border-radius:8px;
-border: 0px;
-font-size: 16px;
-margin-right: 10px;
-padding-left: 20px;
+    width: 700px;
+    height: 64px;
+    border-radius:8px;
+    border: 0px;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-left: 20px;
 }
 .sec-7 .deals .email-sub .btn{
 padding: 22px 43px;
 }
-/* Sixth section design part */
+/* Seventh section design part */
 
 /* footer part */
 footer{
@@ -298,7 +361,6 @@ footer{
     text-align: center;
     padding-top: 128px;
     padding-bottom: 128px;
-
 }
 footer .inner-footer{
     width: 628px;
@@ -323,7 +385,6 @@ footer p{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* width: 625px; */
 }
 footer .copyright{
     color: rgba(255, 255, 255, 0.40);
